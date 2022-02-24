@@ -81,7 +81,7 @@ def detect_similar_monthly_variations(time_series,years):
     if not isinstance(time_series,list):
         raise ExamException('time_series non è una lista')
     if not isinstance(years,list):
-        raise ExameException('years non è una lista')
+        raise ExamException('years non è una lista')
     if len(years)!= 2:
         raise ExamException('years deve contenere 2 valori')
     try: 
