@@ -72,7 +72,7 @@ class CSVTimeSeriesFile():
             if y[0]==y_1[0]:
                 if y[1]<=y_1[1]:
                     raise ExamException('timestamp fuori posizione: {}'.format(data[i]))
-        print(data)
+        #print(data)
         my_file.close
         return data
 def detect_similar_monthly_variations(time_series,years):
@@ -195,7 +195,7 @@ def detect_similar_monthly_variations(time_series,years):
     #print(lista_2)
     #print(esiti)
     return esiti 
-time_series_file = CSVTimeSeriesFile('data.csv')
-time_series = time_series_file.get_data()
-years=[1959,1960]
-ciao=detect_similar_monthly_variations(time_series,years)
+#time_series_file = CSVTimeSeriesFile('data.csv')
+#time_series = time_series_file.get_data()
+#years=[1959,1960]
+#ciao=detect_similar_monthly_variations(time_series,years)
