@@ -75,7 +75,6 @@ class CSVTimeSeriesFile():
         #print(data)
         my_file.close
         return data
-
 def detect_similar_monthly_variations(time_series,years):
     #controllo che time_series sia una lista e che years siano validi all'interno della lista 
    
